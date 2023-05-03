@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<data>
+    <aluno nome="Pedro Lima" matricula="002">
+        aaaa
+    </aluno>
+
+    <questoes>
+        <div id="in-page-channel-node-id" data-channel-name="in_page_channel_L9HlUO" />
+        <questao id="1" tipo="multipla_escolha">
+            <enun> Qual é a definição correta de Bridge?</enun>
+
+            <alt id="A"> Um padrão de projeto de software que permite a comunicação entre objetos
+                sem
+                acoplamento.</alt>
+            <alt id="B"> Um padrão de projeto de software que define uma interface para um conjunto
+                de
+                classes.</alt>
+            <alt id="C"> Um padrão de projeto de software que permite que objetos sejam acessados de
+                diferentes maneiras.</alt>
+            <alt id="D"> Um padrão de projeto de software que permite que objetos sejam combinados
+                em
+                uma única classe.</alt>
+            <alt id="E"> Um padrão de projeto de software que permite que objetos sejam criados sem
+                a
+                necessidade de uma classe correspondente.</alt>
+            <gabarito>A</gabarito>
+        </questao>
+        <questao id="2" tipo="multipla_escolha">
+            <enun> Qual é o principal objetivo do padrão Bridge?</enun>
+
+            <alt id="A"> Facilitar a comunicação entre objetos sem acoplamento.</alt>
+            <alt id="B"> Reduzir a complexidade do código ao separar a interface da implementação.</alt>
+            <alt id="C"> Permitir que objetos sejam acessados de diferentes maneiras.</alt>
+            <alt id="D"> Permitir que objetos sejam combinados em uma única classe.</alt>
+            <alt id="E"> Permitir que objetos sejam criados sem a necessidade de uma classe
+                correspondente.</alt>
+            <gabarito>B</gabarito>
+        </questao>
+        <questao id="3" tipo="multipla_escolha">
+            <enun> Em qual situação o padrão Bridge é mais útil?</enun>
+            
+            <alt id="A"> Quando há necessidade de criar várias classes semelhantes com pequenas
+                diferenças.</alt>
+            <alt id="B"> Quando há necessidade de criar várias classes com comportamentos
+                diferentes.</alt>
+            <alt id="C"> Quando há necessidade de separar a interface da implementação.</alt>
+            <alt id="D"> Quando há necessidade de reduzir a complexidade do código.</alt>
+            <alt id="E"> Quando há necessidade de criar objetos sem a necessidade de uma classe
+                correspondente.</alt>
+            <gabarito>C</gabarito>
+        </questao>
+        <questao id="4" tipo="multipla_escolha">
+            <enun> Qual é o papel da interface no padrão Bridge?</enun>
+
+            <alt id="A"> Definir uma lista de métodos que as classes devem implementar.</alt>
+            <alt id="B"> Separar a interface da implementação.</alt>
+            <alt id="C"> Comunicar-se com outras classes.</alt>
+            <alt id="D"> Fornecer uma maneira de criar objetos sem a necessidade de uma classe
+                correspondente.</alt>
+            <alt id="E"> Controlar o acesso aos objetos.</alt>
+            <gabarito>A</gabarito>
+        </questao>
+        <questao id="5" tipo="multipla_escolha">
+            <enun> Qual é o papel da implementação no padrão Bridge?</enun>
+
+            <alt id="A"> Definir uma lista de métodos que as classes devem implementar.</alt>
+            <alt id="B"> Separar a interface da implementação.</alt>
+            <alt id="C"> Comunicar-se com outras classes.</alt>
+            <alt id="D"> Fornecer uma maneira de criar objetos sem a necessidade de uma classe
+                correspondente.</alt>
+            <alt id="E"> Controlar o acesso aos objetos.</alt>
+            <gabarito>B </gabarito>
+        </questao>
+        <questao id="6" tipo="multipla_escolha">
+            <enun> Como o padrão Bridge ajuda a reduzir a complexidade do código?</enun>
+
+            <alt id="A"> Ao separar a interface da implementação.</alt>
+            <alt id="B"> Ao permitir que objetos sejam acessados de diferentes maneiras.</alt>
+            <alt id="C"> Ao permitir que objetos sejam combinados em uma única classe.</alt>
+            <alt id="D"> Ao permitir que objetos sejam criados sem a necessidade de uma classe
+                correspondente.</alt>
+            <alt id="E"> Ao permitir que os objetos sejam acessados diretamente.</alt>
+            <gabarito>A</gabarito>
+        </questao>
+        <questao id="7" tipo="multipla_escolha">
+            <enun> Qual é a principal desvantagem do padrão Bridge?</enun>
+
+            <alt id="A"> Pode ser difícil implementar em sistemas pequenos.</alt>
+            <alt id="B"> Pode aumentar a complexidade do código.</alt>
+            <alt id="C"> Pode tornar o código mais difícil de manter.</alt>
+            <alt id="D"> Pode não ser suficiente para lidar com a comunicação entre dispositivos em
+                grandes redes.</alt>
+            <gabarito>D</gabarito>
+        </questao>
+        <questao id="8" tipo="multipla_escolha">
+            <enun> O padrão Bridge pode ser utilizado em conjunto com qual outro padrão de projeto
+                para permitir a criação de uma estrutura mais flexível e modular?</enun>
+
+            <alt id="A"> Singleton</alt>
+            <alt id="B"> Strategy</alt>
+            <alt id="C"> Decorator</alt>
+            <alt id="D"> Observer</alt>
+            <alt id="E"> Factory</alt>
+            <gabarito>C</gabarito>
+        </questao>
+        <questao id="9" tipo="multipla_escolha">
+            <enun> Qual é a diferença entre o padrão Bridge e o padrão Adapter?</enun>
+
+            <alt id="A"> O padrão Bridge separa a interface da implementação, enquanto o padrão
+                Adapter converte uma interface incompatível em uma interface esperada.</alt>
+            <alt id="B"> O padrão Bridge permite que objetos sejam acessados de diferentes maneiras,
+                enquanto o padrão Adapter facilita a comunicação entre objetos incompatíveis.</alt>
+            <alt id="C"> O padrão Bridge permite que objetos sejam criados sem a necessidade de uma
+                classe correspondente, enquanto o padrão Adapter permite que um objeto existente
+                seja usado em outro contexto sem modificar sua interface.</alt>
+            <alt id="D"> O padrão Bridge permite que objetos sejam combinados em uma única classe,
+                enquanto o padrão Adapter permite que um objeto seja substituído por outro com uma
+                interface diferente.</alt>
+            <alt id="E"> Não há diferença entre o padrão Bridge e o padrão Adapter.</alt>
+            <gabarito>A</gabarito>
+        </questao>
+        <questao id="10" tipo="multipla_escolha">
+            <enun> Em qual situação o padrão Bridge pode ser considerado uma solução excessiva e
+                desnecessária?</enun>
+
+            <alt id="A"> Quando a interface e a implementação são simples e não há necessidade de
+                separá-las.</alt>
+            <alt id="B"> Quando a complexidade do código pode ser reduzida de outras maneiras.</alt>
+            <alt id="C"> Quando há apenas uma implementação possível para a interface.</alt>
+            <alt id="D"> Quando a comunicação entre objetos não é importante no contexto do projeto.</alt>
+            <alt id="E"> Quando a aplicação é pequena e não requer modularidade.</alt>
+            <gabarito>A</gabarito>
+        </questao>
+    </questoes>
+</data>
